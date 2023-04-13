@@ -357,4 +357,21 @@ key: alike 10
 key: like 10
   decomp: * @be * like *
     reasmb: goto alike
+key: introduce
+  decomp: * introduce *
+    reasmb: Hi, I am Eliza. How are you? I can help you with your problem. What are you dealing with today?
+key: hi 10
+  decomp: * hi *
+    reasmb: Hi, How are you doing today?
+    reasmb: Hello, How may I help you?
+key: suicide 50
+  decomp: * suicide *
+    reasmb: Sorry, I can't help with suicide. If you are feeling depressed or dealing with mental issues, you may consider talking to psychiatrist. 
+key: bomb 50
+  decomp: * bomb *
+    reasmb: Sorry, I am not supposed to tell you about this.
+key: kill 50
+  decomp: * kill *
+    reasmb: Sorry, I can't help you with this.
+
    
